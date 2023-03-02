@@ -1,0 +1,14 @@
+{% extends "Base.html" %}
+{% load static %}
+
+{%  block content  %}
+<style>
+    .uni-block{
+        height: 350px;
+        width: auto;
+    }
+</style>
+
+<img src="{% static 'pics/hostel-murali-pic.jpeg'%}" class="uni-block" alt="pic">
+
+{% endblock content %}
